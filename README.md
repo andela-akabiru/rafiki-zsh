@@ -25,7 +25,7 @@ Change your zsh theme to rafiki in your `.zshrc` file.
 
     ZSH_THEME='rafiki'
 
-Restart your terminal and Voila! Rafiki is watching over you.
+Restart your terminal (or reload your terminal by running `$ source ~/.zshrc`) and Voila! Rafiki is watching over you.
 
 ### Usage
 
