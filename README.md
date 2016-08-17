@@ -58,6 +58,12 @@ Then reload your zsh configuration.
 You can also add your own emojis to the supported set. Just add the emoji name to one of the arrays; `goodemojis` or `bademojis`.
 Then add the emoji to the respective array with the name as the key and the emoji as the value.
 
+Colors can also be customized by modifying the `$RAFIKI_FOLDER_COLOR`, `$RAFIKI_GIT_WRAPPER_COLOR` and `$RAFIKI_GIT_BRANCH_COLOR` variables. zsh defines the following colors for text on the terminal: `green`, `blue`, `cyan`, `black`, `red`, `magenta`, `yellow` and `white`. The three color variables can be set to any of these colors.
+
+    $RAFIKI_FOLDER_COLOR=magenta
+    $RAFIKI_GIT_BRANCH_COLOR=yellow
+    $RAFIKI_GIT_WRAPPER_COLOR=green
+
 ### Contributing
 
 Feel free to contribute, even if it's to add an emoji. :wink: Just fork it :fork_and_knife: and raise a pull request.
