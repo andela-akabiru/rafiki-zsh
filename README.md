@@ -64,6 +64,10 @@ Colors can also be customized by modifying the `$RAFIKI_FOLDER_COLOR`, `$RAFIKI_
     $RAFIKI_GIT_BRANCH_COLOR=yellow
     $RAFIKI_GIT_WRAPPER_COLOR=green
 
+To change the colors, navigate open via sublime (or any editor of your choice) and edit the three variables above.
+
+    $ subl ~/.oh-my-zsh/custom/themes/rafiki.zsh-theme
+
 ### Contributing
 
 Feel free to contribute, even if it's to add an emoji. :wink: Just fork it :fork_and_knife: and raise a pull request.
