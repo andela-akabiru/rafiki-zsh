@@ -107,7 +107,7 @@ fi
 local ret_status="%(?:%{$fg_bold[green]%}$RAFIKI_GOOD :%{$fg_bold[red]%}$RAFIKI_BAD )"
 PROMPT='${ret_status} %{$RAFIKI_FOLDER_COLOR%}%c%{$reset_color%} $(git_prompt_info)'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$RAFIKI_GIT_WRAPPER_COLOR%}git:(%{$RAFIKI_GIT_BRANCH_COLOR%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$RAFIKI_GIT_WRAPPER_COLOR%}git:%{$RAFIKI_GIT_BRANCH_COLOR(%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$RAFIKI_GIT_BRANCH_COLOR%}) %{$fg[yellow]%}✗"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$RAFIKI_GIT_BRANCH_COLOR%})"
