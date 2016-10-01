@@ -24,9 +24,6 @@ bad[worried]=😟
 bad[nervous]=😰
 bad[scream]=😱
 
-
-
-
 # Get size
 G=${#goodemojis[@]}
 B=${#bademojis[@]}
