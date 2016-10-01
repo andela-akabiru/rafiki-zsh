@@ -1,8 +1,8 @@
 declare -A good
 declare -A bad
 
-goodemojis=( fire muscle pointright facepunch smile sunglasses )
-bademojis=( rollingeyes pouting confused flushed middlefinger worried )
+goodemojis=( fire muscle pointright facepunch smile sunglasses thumbsup okhand winking vforvictory )
+bademojis=( rollingeyes pouting confused flushed middlefinger worried nervous scream )
 
 good[fire]=🔥
 good[muscle]=💪
