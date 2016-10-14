@@ -15,6 +15,10 @@ goodemojis=(
   moon
   sun
   clap
+  geek
+  beer
+  cheers
+  handsup
 )
 
 bademojis=(
@@ -30,6 +34,9 @@ bademojis=(
   grimacing
   nervous
   scream
+  skull
+  expressionless
+  frowning
 )
 
 good[fire]=🔥
@@ -42,9 +49,14 @@ good[thumbsup]=👍
 good[okhand]=👌
 good[winking]=😉
 good[vforvictory]=✌️
+good[clap]=👏
 good[moon]=🌝
 good[sun]=🌞
-good[clap]=👏
+good[geek]=🤓
+good[beer]=🍺
+good[cheers]=🍻
+good[handsup]=🙌
+
 
 bad[rollingeyes]=🙄
 bad[pouting]=😡
@@ -58,6 +70,9 @@ bad[thumbsdown]=👎
 bad[hushed]=😯
 bad[triumph]=😤
 bad[grimacing]=😬
+bad[skull]=💀
+bad[expressionless]=😑
+bad[frowning]=☹️
 
 # Get size
 G=${#goodemojis[@]}
