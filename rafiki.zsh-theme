@@ -24,7 +24,7 @@ bademojis=(
   flushed
   middlefinger
   worried
-  downthumb
+  thumbsdown
   hushed
   triumph
   grimacing
@@ -58,7 +58,6 @@ bad[thumbsdown]=👎
 bad[hushed]=😯
 bad[triumph]=😤
 bad[grimacing]=😬
->>>>>>> Add more emojis
 
 # Get size
 G=${#goodemojis[@]}
