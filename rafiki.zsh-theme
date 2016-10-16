@@ -1,44 +1,6 @@
 declare -A good
 declare -A bad
 
-goodemojis=(
-  fire
-  muscle
-  pointright
-  facepunch
-  smile
-  sunglasses
-  thumbsup
-  okhand
-  winking
-  vforvictory
-  moon
-  sun
-  clap
-  geek
-  beer
-  cheers
-  handsup
-)
-
-bademojis=(
-  rollingeyes
-  pouting
-  confused
-  flushed
-  middlefinger
-  worried
-  thumbsdown
-  hushed
-  triumph
-  grimacing
-  nervous
-  scream
-  skull
-  expressionless
-  frowning
-)
-
 good[fire]=🔥
 good[muscle]=💪
 good[pointright]=👉
@@ -73,6 +35,18 @@ bad[grimacing]=😬
 bad[skull]=💀
 bad[expressionless]=😑
 bad[frowning]=☹️
+
+# create an array of good emoji names
+local -a goodemojis
+for k in "${(@k)good}"; do
+  goodemojis+=( "$k" )
+done
+
+# create an array of bad emoji names
+local -a bademojis
+for k in "${(@k)bad}"; do
+  bademojis+=( "$k" )
+done
 
 # Get size
 G=${#goodemojis[@]}
