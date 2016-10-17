@@ -63,8 +63,11 @@ Then reload your zsh configuration.
 
     $ source ~/.zshrc
 
-You can also add your own emojis to the supported set. Just add the emoji name to one of the arrays; `goodemojis` or `bademojis`.
-Then add the emoji to the respective array with the name as the key and the emoji as the value.
+You can also add your own emojis to the supported set. Just add the emoji to one of the arrays; `good` or `bad` with the
+emoji name as the key emoji as the value. For example:
+```
+good[100] = 💯
+```
 
 ### Contributing
 
